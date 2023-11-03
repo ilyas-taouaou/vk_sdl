@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.26)
 project(vk_sdl C CXX)
-enable_testing(${PROJECT_NAME} CXX)
 
 file(
         DOWNLOAD
