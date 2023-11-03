@@ -119,8 +119,8 @@ void createVulkanContext(VulkanContext *ctx, Uint32 apiVersion) {
                     .vkCmdCopyBuffer = vkCmdCopyBuffer,
                     .vkGetBufferMemoryRequirements2KHR = vkGetBufferMemoryRequirements2,
                     .vkGetImageMemoryRequirements2KHR = vkGetImageMemoryRequirements2,
-                    .vkBindBufferMemory2KHR = vkBindBufferMemory2KHR,
-                    .vkBindImageMemory2KHR = vkBindImageMemory2KHR,
+                    .vkBindBufferMemory2KHR = vkBindBufferMemory2,
+                    .vkBindImageMemory2KHR = vkBindImageMemory2,
                     .vkGetPhysicalDeviceMemoryProperties2KHR = vkGetPhysicalDeviceMemoryProperties2,
             },
     }, &ctx->allocator);
