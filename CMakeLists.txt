@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.26)
 project(vk_sdl C CXX)
 
+set(CMAKE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_PDB_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
 file(
         DOWNLOAD
         https://github.com/cpm-cmake/CPM.cmake/releases/download/v0.38.3/CPM.cmake
