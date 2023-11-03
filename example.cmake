@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.26)
 project(example C)
+enable_language(CXX)
 
 set(CMAKE_C_STANDARD 23)
 
