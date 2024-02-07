@@ -18,6 +18,8 @@ CPMAddPackage("gh:libsdl-org/SDL_image#7744158")
 CPMAddPackage("gh:libsdl-org/SDL_ttf#f9b636f")
 CPMAddPackage("gh:libsdl-org/SDL_mixer#8ab0d03")
 
+CPMAddPackage("gh:google/googletest#v1.14.x")
+
 CPMAddPackage("gh:KhronosGroup/Vulkan-Headers#vulkan-sdk-1.3.268.0")
 CPMAddPackage("gh:KhronosGroup/SPIRV-Headers#vulkan-sdk-1.3.268.0")
 CPMAddPackage("gh:KhronosGroup/SPIRV-Tools#vulkan-sdk-1.3.268.0")
